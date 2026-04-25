@@ -11,6 +11,7 @@ Do not just rewrite code; suggest adding linters, docs, or tools to prevent the 
 ## 2. Repository Map & Documentation
 Detailed knowledge lives in the `docs/` folder. Always consult it before making architectural decisions.
 - `docs/architecture.md`: Detailed system design and layer definitions.
+- `docs/clean_code.md`: Code in clean code guidelines.
 - `docs/tech-stack.md`: Justification for our "boring", stable technologies.
 - `docs/testing.md`: Comprehensive testing strategies and mocks.
 - `docs/state.md`: The current working memory (Active tasks, Blockers). **Always read this first.**
@@ -20,7 +21,7 @@ Detailed knowledge lives in the `docs/` folder. Always consult it before making 
 We use a strict Layered Domain Architecture. Dependencies MUST flow downwards. Lower layers cannot know about upper layers.
 1. **Types:** Interfaces, DTOs, Enums. (Zero dependencies)
 2. **Config:** Environment variables, static configurations.
-3. **Repo (Infrastructure):** Database calls, external APIs.
+3. **Repository (Infrastructure):** Database calls, external APIs.
 4. **Service (Domain):** Business logic.
 5. **Runtime/API:** Controllers, GraphQL resolvers, REST endpoints.
 6. **UI:** Frontend components.
