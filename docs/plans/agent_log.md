@@ -1,3 +1,5 @@
+# docs/plans/agent_log.md
+
 # AI Agent Log (Observability)
 
 This file tracks the reasoning and autonomous actions taken by AI Agents in this repository. It provides observability for human engineers to understand *why* an agent made specific architectural or code choices.

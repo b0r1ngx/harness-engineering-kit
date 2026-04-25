@@ -11,6 +11,7 @@ Do not just rewrite code; suggest adding linters, docs, or tools to prevent the 
 ## 2. Repository Map & Documentation
 Detailed knowledge lives in the `docs/` folder. Always consult it before making architectural decisions.
 - `docs/architecture.md`: Detailed system design and layer definitions.
+- `docs/behaviour.md`: Behavioural guidelines.
 - `docs/clean_code.md`: Code in clean code guidelines.
 - `docs/tech-stack.md`: Justification for our "boring", stable technologies.
 - `docs/testing.md`: Comprehensive testing strategies and mocks.

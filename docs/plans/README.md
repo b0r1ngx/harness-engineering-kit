@@ -1,3 +1,5 @@
+# docs/plans/README.md
+
 # Product & Development Plans
 
 This folder contains the roadmap, current active tasks, and architectural decisions for the project.

@@ -1,4 +1,6 @@
-# Project State
+# docs/state.md
+
+Project State
 
 **Last Updated:** {{CURRENT_DATE}}
 
